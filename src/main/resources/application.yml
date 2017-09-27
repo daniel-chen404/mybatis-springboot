@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: test
+server:
+  port: 8081
+  context-path: /demo
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: false
+management:
+  security:
+    enabled: false
+
